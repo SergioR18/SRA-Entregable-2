@@ -1,48 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="Css/templeteevent.css">
-    
-   
-    
-    
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="Css/templeteevent.css">
+
+
+
+
+
+
 </head>
 
 <body>
-  
-    <div class="BordeBanner">
-    <nav class="navbar bg-light" style="width: auto;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="imagenes/L.png"  height="90%"></a>
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-success" type="submit" >Eventos</button>
-            <button class="btn btn-outline-success" type="submit">Sobre Nostros</button>
-          </form>
+  <div class="container text-center" style="left:56px;">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="BordeBanner">
+          <nav class="navbar bg-light" style="width: auto;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="imagenes/L.png" height="90%"></a>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success" type="submit">Eventos</button>
+                <button class="btn btn-outline-success" type="submit">Sobre Nostros</button>
+              </form>
+              <img  src="imagenes/banner.jpg" style="width: 100%; height: 16%;" alt="">
+            </div>
+          </nav>
+        </div>
+        <br>
+        <table class="table" id="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            
+            </tr>
+            <tr>
+              
+            </tr>
+            <tr>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row">
+          <div style="text-align: end" class="col-sm-9">
+            <label>Valor:</label>
+            <br />
+            <br />
+            <label>IVA:</label>
+            <br />
+            <br />
+            <label>Total a pagar:</label>
+          </div>
+          <div class="col-sm-3">
+            <h6 id="valor"></h6>
+            <br />
+            <h6 id="iva"></h6>
+            <br />
+            <h6 id="total"></h6>
+          </div>
+        <br>
+        </div>
+        <br>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-10"></div>
+            <div class="col-sm-2"><a href="#" id="btnpagar" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Pagar</a></div>
+         </div>
         </div>
       </div>
-      </nav>
-    
-    <br>
-    
- 
-      </div>
-    </div>
-    <br>
-    
-
-    <div class="container text center">
-      <div class="row">
-        <div class="col-sm-8">
-        </div>
-        <div class=" col-sm-4">
-          <div class="card" style="width: 24rem;">
+      
+      
+      <div class="col-sm-2 offset-sm-2 col-md-2 offset-md-0">
+        <div class="">
+          <div class="card" style="width: 22rem;">
             <img class="card-img-top" src="imagenes/1.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -51,75 +95,83 @@
             </div>
           
         </div>
-        <br>
-
-        <div class="card " style="width: 24 rem; height: 15 rem;">
-
-            <img class="card-img-top" src="imagenes/3.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="event.html" id="btnevent2" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <br>
-       
-        
-
-
-                <div class="col-sm-4">
-                    <br>
-          <div class="card" style="width: 24rem;">
-            <img class="card-img-top" src="imagenes/2.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="event.html" id="btnevent3" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>         
       </div>
+      <br>
+      <div class="">
+        <div class="card" style="width: 22rem;">
+          <img class="card-img-top" src="imagenes/3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="event.html" id="btnevent1" class="btn btn-primary">Go somewhere</a>
+          </div>
+        
+      </div>
+   
+  <br>
+  
+
+    <div class="">
+      <div class="card" style="width: 22rem;">
+        <img class="card-img-top" src="imagenes/2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="event.html" id="btnevent1" class="btn btn-primary">Go somewhere</a>
+        </div>
+      
     </div>
     <br>
-    
-    
-    <div class="footer-dark">
-      <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Services</h3>
-                      <ul>
-                          <li><a href="#">Web design</a></li>
-                          <li><a href="#">Development</a></li>
-                          <li><a href="#">Hosting</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>About</h3>
-                      <ul>
-                          <li><a href="#">Company</a></li>
-                          <li><a href="#">Team</a></li>
-                          <li><a href="#">Careers</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-md-6 item text">
-                      <h3>Company Name</h3>
-                      <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                  </div>
-                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-              </div>
-              <p class="copyright">Company Name © 2018</p>
-          </div>
-      </footer>
   </div>
+
+     
+  <br>
+
+
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Company Name</h3>
+            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus
+              elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+          </div>
+          <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+              href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+        </div>
+        <p class="copyright">Company Name © 2018</p>
+      </footer>
+      </div>
+   
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    
-    
-  <script src="js/scrip.js"></script>
-    
-    
+
+
+  <script src="JSS/jquery.js"></script>
+  <script src="JSS/scrip.js"></script>
+
+
 </body>
+
 </html>

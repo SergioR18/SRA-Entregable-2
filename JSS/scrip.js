@@ -1,6 +1,7 @@
 var i = 0;
 option = "option";
 $(function () {
+ 
   $("#btn1").click(function (e) {});
   let tipo = ["1", "2", "3"];
   let valores = ["35000", "75000", "18000"];
@@ -11,16 +12,14 @@ $(function () {
   $("#btnagregar").click(function (event) {
     agregar(1);
   });
-// $('#myModal').on('shown.bs.modal', function () {
-//   $('#myInput').trigger('focus')
-// })
+
 
 });
 
 function llenarTable(tipo, valores) {
   var row = $("<tr />");
   $("#table tbody").append(row);
-  row.append($('<td id="btnagregar" class="icon-user-plus">' + "" + "</td>"));
+  row.append($('<td id="btnagregar" class="icon-evil">' + "<button class='button-procesar'>Procesar</button>" + "</td>"));
   row.append($("<td>" + tipo[i] + "</td>"));
   row.append($("<td>" + valores[i] + "</td>"));
   row.append(
@@ -34,6 +33,8 @@ function llenarTable(tipo, valores) {
         '<option value="1">1</option>' +
         '<option value="2">2</option>' +
         '<option value="3">3</option>' +
+        '<option value="4">4</option>' +
+        '<option value="5">5</option>' +
         "</select>" +
         "</td>"
     )
@@ -87,3 +88,4 @@ function agregar(op) {
     console.log(tipo+" "+valor + " " + iva + " " + total + " " + cantidad);
 
   });
+}

@@ -11,7 +11,7 @@ body {
     position: relative;
     padding-bottom: 20em;
     min-height: 100vh;
-background-color: black;  
+    background-color: black;  
 }
 
 .BordeBanner{
@@ -20,10 +20,10 @@ background-color: black;
       border: 1px solid silver;
       border-radius: 10px;
       background-color: green;
-      padding: 5px;
+       padding: 5px; 
   }
 .banner {
-
+    border-radius: 10px;
     width: 600px;
     height: 350px;
     margin: 0 auto;
@@ -36,6 +36,11 @@ background-color: black;
     padding:50px 0;
     color:#f0f9ff;
     background-color:#282d32;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
   }
   
   .footer-dark h3 {

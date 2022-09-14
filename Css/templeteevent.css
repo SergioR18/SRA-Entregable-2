@@ -1,41 +1,77 @@
 *{
     padding: 0px;
-    margin:0px;
+    margin:0px; 
 }
 
+th{
+  color: #f0f9ff;
+}
+td{
+  color: #f0f9ff;
+}
+td{
+  color: #f0f9ff;
+}
+label {
+  color: #f0f9ff;
+}
+h6 {
+  color: #f0f9ff;
+}
+
+
 body {
-  
-    margin: 0 ;
-    text-align: center;
-    padding: 15px;
+   
+    
+    padding: 10px;
     position: relative;
     padding-bottom: 20em;
     min-height: 100vh;
-background-color:  black;  
+    background-color:  black; 
+    
+
 }
 
+/* img{
+  border-radius: 10px;
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+} */
+
+
 .BordeBanner{
-      margin: 0 auto;
-      width: auto;
-      border: 1px solid silver;
+      margin: 0 ;
+      width: 100%;
+      border: 1px solid green;
       border-radius: 10px;
       background-color: green;
       padding: 5px;
+     position: relative;
+     
+      
+      
   }
-.banner {
+.button-procesar{
+  color: white;
+  border-color: transparent;
+  background-color: green;
+  border-radius: 10px;
 
-    width: 580px;
-    height: 350px;
-    margin: 0 auto;
-    background-image: url("https://latiquetera.com/img/attach/Event/2129/37914/event_normal.4b942af4e8ba48be37696f2ad98cbe2a.webp");
-    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.25);
-  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.25);
-  }
+}
+/* :hover {
+  background-color: #282d32;
+  
+} */
   .footer-dark {
     padding:50px 0;
     color:#f0f9ff;
     background-color:#282d32;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
   }
   
   .footer-dark h3 {
